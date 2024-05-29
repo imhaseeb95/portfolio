@@ -104,4 +104,7 @@
 		display: block;
 		margin: auto;
 	}
+	.projects-info ul {
+		flex-wrap: wrap;
+	}
 }
