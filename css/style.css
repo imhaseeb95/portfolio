@@ -151,7 +151,23 @@ nav ul li a:hover {
 .hire-me:hover {
 	background: var(--bg-btn-color);
 }
-
+.menue-bar {
+	display: none;
+	color: var(--color-white);
+}
+.menue-bar i {
+	font-size: 1.8rem;
+}
+.close {
+	display: none;
+	color: var(--color-white);
+}
+.close i {
+	font-size: 1.8rem;
+}
+.close.active {
+	display: block;
+}
 /* ---- Hero Section ---- */
 .grid-column {
 	display: grid;

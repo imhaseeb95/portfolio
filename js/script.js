@@ -15,3 +15,23 @@ window.addEventListener("scroll", function () {
     headerScroll.classList.remove("active");
   }
 });
+
+// ========================
+// 	 Menue Bar
+// ========================
+var menueBar = document.querySelector(".menue-bar");
+var navMenu = document.querySelector("nav");
+var closeBtn = document.querySelector(".close")
+
+
+
+menueBar.addEventListener('click', () =>{
+  navMenu.classList.add("active")
+  closeBtn.classList.add("active")
+  menueBar.classList.add("active")
+})
+closeBtn.addEventListener('click', () =>{
+  navMenu.classList.remove("active")
+  closeBtn.classList.remove("active")
+  menueBar.classList.remove("active")
+})

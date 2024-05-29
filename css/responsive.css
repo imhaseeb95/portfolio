@@ -1,0 +1,107 @@
+@media screen and (max-width: 1240px) {
+	.container {
+		width: auto;
+		padding: 0 15px;
+	}
+	header {
+		padding: 1.8rem 2rem;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.hero-sec .grid-column {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 1rem;
+	}
+	.my-image img {
+		width: 50%;
+	}
+	/* .contact-info-container {
+		padding: 3rem 3rem 2rem;
+	} */
+	/* .about-content-sub-part {
+		padding: 2rem 3rem;
+		text-align: center;
+	} */
+	/* .about-content-sub-part .btn {
+		margin: 2rem auto 0;
+	} */
+	.client-work h2 {
+		text-align: center;
+	}
+
+	.resume-sec .grid-template-two {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 0;
+	}
+}
+
+@media screen and (max-width: 939px) {
+	.hire-me-box {
+		display: none;
+	}
+	nav {
+		position: fixed;
+		top: 100%;
+		right: 0;
+		height: auto;
+		width: 100%;
+		background: rgb(36 36 36);
+		padding: 1rem 0;
+		visibility: hidden;
+		transform: scale(1, 0);
+		transform-origin: 0 0;
+		opacity: 0;
+		transition: var(--transiton);
+		z-index: 105;
+	}
+	nav.active {
+		visibility: visible;
+		transform: scale(1, 1);
+		opacity: 1;
+		transition: var(--transiton);
+	}
+	nav ul {
+		display: block;
+	}
+	nav ul li {
+		border-bottom: 1px solid #5a5a5a;
+	}
+	nav ul li:last-child {
+		border-bottom: 0;
+	}
+	nav ul li a {
+		color: var(--color-white);
+		padding: 0.5rem 1rem;
+		display: block;
+	}
+	.menue-bar {
+		display: block;
+	}
+	.menue-bar.active {
+		display: none;
+	}
+	.work-sec .grid-column-three {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem 1rem;
+	}
+}
+
+@media screen and (max-width: 676px) {
+	.work-sec .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.ft-contact-info ul {
+		flex-wrap: wrap;
+	}
+	.hero-sec .client-work .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 2rem;
+	}
+	.client-logo img {
+		width: 54%;
+		display: block;
+		margin: auto;
+	}
+}
