@@ -120,7 +120,7 @@ header {
 header.active {
 	width: 100%;
 	border-radius: 0rem;
-	padding: 1rem 3.8rem;
+	padding: 1rem 3rem;
 }
 .header-main-container {
 	display: flex;
